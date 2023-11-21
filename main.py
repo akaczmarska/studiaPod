@@ -98,11 +98,6 @@ import random
 # #print(moj_string[::-1])
 # moj_string = moj_string.replace(' ', '')
 
-# serum c, e kwas ferulowy
-# serum z trechaloza
-# retinol 2%
-# krem na zime
-
 #Sprawdz czy string jest palindromem
 list_of_sentences = []
 sentence = input('Podaj ciag znakow')
