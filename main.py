@@ -104,7 +104,7 @@ sentence = input('Podaj ciag znakow')
 list_of_sentences.append(sentence)
 max_len = len(sentence)
 while True:
-    print(f'Podano zdanie')
+    print(f'Podano zdanie bedace palindromem')
     tmp_sentence = sentence.replace(' ', '').replace('.','').replace(',','')
     if tmp_sentence.lower == tmp_sentence[::-1].lower:
         print(f'zdanie jest palindromem')
